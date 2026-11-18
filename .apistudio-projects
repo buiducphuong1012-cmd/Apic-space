@@ -1,16 +1,16 @@
-{
-  "projects": {
-    "project_github": {
-      "id": "49A6UvTE",
-      "description": "",
-      "tags": [],
-      "lastUpdated": 1794799043122
-    },
-    "api_github": {
-      "id": "k9Xm2PqL",
-      "description": "",
-      "tags": [],
-      "lastUpdated": 1794799043122
-    }
-  }
-}
+projects:
+  project_github:
+    id: 49A6UvTE
+    description: ''
+    tags: []
+    lastUpdated: 1794799043122
+  api_github:
+    id: k9Xm2PqL
+    description: ''
+    tags: []
+    lastUpdated: 1794799043122
+  api_project_gihub:
+    id: hj53cFAJ
+    description: ''
+    tags: []
+    lastUpdated: 1794987360572
