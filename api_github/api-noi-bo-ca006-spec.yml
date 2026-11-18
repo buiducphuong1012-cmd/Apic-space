@@ -1,0 +1,19 @@
+openapi: 3.0.4
+info:
+  title: api-noi-bo-ba001
+  version: '1.0'
+  description: ''
+paths:
+  /api/v1/list/ba001:
+    get:
+      operationId: get_6aebff09c611f4cfa490d8d5
+      tags:
+        - api-noi-bo-ba001
+      summary: ''
+      description: ''
+      responses:
+        '200':
+          description: success
+      parameters: []
+servers:
+  - url: /dieuphoi
