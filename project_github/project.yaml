@@ -1,0 +1,8 @@
+kind: Project
+apiVersion: ://ibm.com
+metadata:
+  name: project_github
+  namespace: project_github
+  version: "1.0"
+spec:
+  title: project_github
