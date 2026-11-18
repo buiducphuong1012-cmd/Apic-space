@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "191a8935-925c-4954-aa4a-a1d9be056419:0",
+      "projectId": "hj53cFAJ",
+      "filePath": "api_project_gihub/api-noi-bo-aa006-policy.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1794987529945,
+      "schemaVersion": 1,
+      "kind": "DataPowerAssembly",
+      "name": "api-noi-bo-aa006-policy",
+      "namespace": "api_project_gihub",
+      "version": "1.0",
+      "contentHash": "622ad8868fcdc432"
+    },
+    {
+      "id": "389b4e17-c3e8-4648-979c-709c9123cfbe:0",
+      "projectId": "hj53cFAJ",
+      "filePath": "api_project_gihub/default-plan.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1794987435660,
+      "schemaVersion": 1,
+      "kind": "Plan",
+      "name": "default-plan",
+      "namespace": "api_project_gihub",
+      "version": "1.0",
+      "contentHash": "93396f22178007bc"
+    },
+    {
+      "id": "aa375106-d9fd-4da6-91ef-2ef15ae6c807:0",
+      "projectId": "hj53cFAJ",
+      "filePath": "api_project_gihub/api-noi-bo-aa006-product.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1794987464223,
+      "schemaVersion": 1,
+      "kind": "Product",
+      "name": "api-noi-bo-aa006-product",
+      "namespace": "api_project_gihub",
+      "version": "1.0",
+      "contentHash": "2f7df045c1789ee6"
+    },
+    {
+      "id": "d55d03dc-f268-4356-962d-39b4f614365e:0",
+      "projectId": "hj53cFAJ",
+      "filePath": "api_project_gihub/api-noi-bo-aa006.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1794987410309,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "api-noi-bo-aa006",
+      "namespace": "api_project_gihub",
+      "version": "1.0",
+      "contentHash": "9f6ec742315013bf"
+    },
+    {
+      "id": "fb85cc32-d04b-4216-b1c1-f83ad1b12c8b:0",
+      "projectId": "hj53cFAJ",
+      "filePath": "api_project_gihub/api-noi-bo-aa006-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1794987390627,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "4f1ac877-b2d6-48c6-b7f3-1f3235bbb727",
+      "projectId": "hj53cFAJ",
+      "sourceNodeId": "d55d03dc-f268-4356-962d-39b4f614365e:0",
+      "targetNodeId": "fb85cc32-d04b-4216-b1c1-f83ad1b12c8b:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./api-noi-bo-aa006-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1794987392200,
+      "lastValidated": 1794987392200
+    },
+    {
+      "id": "8ab3fe90-e161-4456-93a2-694c23a7d5bc",
+      "projectId": "hj53cFAJ",
+      "sourceNodeId": "aa375106-d9fd-4da6-91ef-2ef15ae6c807:0",
+      "targetNodeId": "d55d03dc-f268-4356-962d-39b4f614365e:0",
+      "targetRefType": "same-project",
+      "targetRefString": "api_project_gihub:api-noi-bo-aa006:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1794987457695,
+      "lastValidated": 1794987457695
+    },
+    {
+      "id": "de0f3458-82de-4b85-8fe0-9872aa19600a",
+      "projectId": "hj53cFAJ",
+      "sourceNodeId": "aa375106-d9fd-4da6-91ef-2ef15ae6c807:0",
+      "targetNodeId": "389b4e17-c3e8-4648-979c-709c9123cfbe:0",
+      "targetRefType": "same-project",
+      "targetRefString": "api_project_gihub:default-plan:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1794987464225,
+      "lastValidated": 1794987464225
+    },
+    {
+      "id": "e11f1ba6-d080-4e1a-8bb0-063e498cacee",
+      "projectId": "hj53cFAJ",
+      "sourceNodeId": "d55d03dc-f268-4356-962d-39b4f614365e:0",
+      "targetNodeId": "191a8935-925c-4954-aa4a-a1d9be056419:0",
+      "targetRefType": "same-project",
+      "targetRefString": "api_project_gihub:api-noi-bo-aa006-policy:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1794987410311,
+      "lastValidated": 1794987529949
+    }
+  ]
+}

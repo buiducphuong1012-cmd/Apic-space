@@ -1,0 +1,12 @@
+kind: Product
+apiVersion: api.ibm.com/v1
+metadata:
+  name: api-noi-bo-aa006-product
+  namespace: api_project_gihub
+  version: '1.0'
+  tags: []
+spec:
+  apis:
+    - $ref: api_project_gihub:api-noi-bo-aa006:1.0
+  plans:
+    - $ref: api_project_gihub:default-plan:1.0
