@@ -1,0 +1,19 @@
+openapi: 3.0.4
+info:
+  title: api-noi-bo-ca008
+  version: '1.0'
+  description: ''
+paths:
+  /api/v1/list/ca008:
+    get:
+      operationId: get_6aebff09c611f4cfa490d8d7
+      tags:
+        - api-noi-bo-ca008
+      summary: ''
+      description: ''
+      responses:
+        '200':
+          description: success
+      parameters: []
+servers:
+  - url: /dieuphoi

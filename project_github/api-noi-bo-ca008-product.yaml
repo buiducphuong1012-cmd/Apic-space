@@ -1,0 +1,12 @@
+kind: Product
+apiVersion: api.ibm.com/v1
+metadata:
+  name: api-noi-bo-ca008-product
+  namespace: project_github
+  version: '1.0'
+  tags: []
+spec:
+  apis:
+    - $ref: project_github:api-noi-bo-ca008:1.0
+  plans:
+    - $ref: project_github:default-plan:1.0
