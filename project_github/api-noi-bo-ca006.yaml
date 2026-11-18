@@ -1,0 +1,13 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: api-noi-bo-ca006
+  version: '1.0'
+  namespace: project_github
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./api-noi-bo-ca006-spec.yml
+  policy-sequence:
+    - $ref: project_github:api-noi-bo-ca006-policy:1.0

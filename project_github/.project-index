@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": "35b5c7c1-0982-43d5-9ef2-945f50e3bedb:0",
+      "projectId": "PTs41m7K",
+      "filePath": "project_github/api-noi-bo-ca006-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1794984229511,
+      "schemaVersion": 1
+    },
+    {
+      "id": "3a8c8105-2d14-4e92-a981-42b481ecb74c:0",
+      "projectId": "PTs41m7K",
+      "filePath": "project_github/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1794984157613,
+      "schemaVersion": 1
+    },
+    {
+      "id": "b2cc0cd0-99ae-4e2d-8d30-3257da0746d5:0",
+      "projectId": "PTs41m7K",
+      "filePath": "project_github/api-noi-bo-ca006-policy.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1794984488287,
+      "schemaVersion": 1,
+      "kind": "DataPowerAssembly",
+      "name": "api-noi-bo-ca006-policy",
+      "namespace": "project_github",
+      "version": "1.0",
+      "contentHash": "d8e097d17bdcb192"
+    },
+    {
+      "id": "d5565944-d734-4648-9500-8f0a05b7a116:0",
+      "projectId": "PTs41m7K",
+      "filePath": "project_github/api-noi-bo-ca006.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1794984280346,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "api-noi-bo-ca006",
+      "namespace": "project_github",
+      "version": "1.0",
+      "contentHash": "d17f13c42df94894"
+    },
+    {
+      "id": "dafb454d-77ae-4058-b3a0-8585a72e61ac:0",
+      "projectId": "PTs41m7K",
+      "filePath": "project_github/default-plan.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1794984293492,
+      "schemaVersion": 1,
+      "kind": "Plan",
+      "name": "default-plan",
+      "namespace": "project_github",
+      "version": "1.0",
+      "contentHash": "419e4d432d2beb15"
+    },
+    {
+      "id": "fe920fe1-5b65-401e-946f-8fdc87d081c8:0",
+      "projectId": "PTs41m7K",
+      "filePath": "project_github/api-noi-bo-ca006-product.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1794984307340,
+      "schemaVersion": 1,
+      "kind": "Product",
+      "name": "api-noi-bo-ca006-product",
+      "namespace": "project_github",
+      "version": "1.0",
+      "contentHash": "b985c12ef57b0c03"
+    }
+  ],
+  "edges": [
+    {
+      "id": "2b15020e-8fd7-4e7d-a6a2-386094932bed",
+      "projectId": "PTs41m7K",
+      "sourceNodeId": "d5565944-d734-4648-9500-8f0a05b7a116:0",
+      "targetNodeId": "b2cc0cd0-99ae-4e2d-8d30-3257da0746d5:0",
+      "targetRefType": "same-project",
+      "targetRefString": "project_github:api-noi-bo-ca006-policy:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1794984280348,
+      "lastValidated": 1794984488291
+    },
+    {
+      "id": "734d895f-057b-4a64-a760-b84637359ec2",
+      "projectId": "PTs41m7K",
+      "sourceNodeId": "fe920fe1-5b65-401e-946f-8fdc87d081c8:0",
+      "targetNodeId": "d5565944-d734-4648-9500-8f0a05b7a116:0",
+      "targetRefType": "same-project",
+      "targetRefString": "project_github:api-noi-bo-ca006:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1794984300678,
+      "lastValidated": 1794984300678
+    },
+    {
+      "id": "aaacfbd1-b910-4cce-b0f8-dcde8be1ba08",
+      "projectId": "PTs41m7K",
+      "sourceNodeId": "d5565944-d734-4648-9500-8f0a05b7a116:0",
+      "targetNodeId": "35b5c7c1-0982-43d5-9ef2-945f50e3bedb:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./api-noi-bo-ca006-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1794984230450,
+      "lastValidated": 1794984230450
+    },
+    {
+      "id": "b6279713-87e4-485a-9616-ea66ef0af1b0",
+      "projectId": "PTs41m7K",
+      "sourceNodeId": "fe920fe1-5b65-401e-946f-8fdc87d081c8:0",
+      "targetNodeId": "dafb454d-77ae-4058-b3a0-8585a72e61ac:0",
+      "targetRefType": "same-project",
+      "targetRefString": "project_github:default-plan:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1794984307342,
+      "lastValidated": 1794984307342
+    }
+  ]
+}

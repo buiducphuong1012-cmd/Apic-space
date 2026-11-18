@@ -1,0 +1,11 @@
+kind: Plan
+apiVersion: api.ibm.com/v1
+metadata:
+  name: default-plan
+  namespace: project_github
+  version: '1.0'
+  tags: []
+  description: ''
+spec:
+  qos:
+    withQuota: {}
