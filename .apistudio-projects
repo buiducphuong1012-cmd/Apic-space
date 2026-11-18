@@ -1,4 +1,10 @@
-projects:
-  project_github:
-    path: project_github
-    id: 49A6UvTE
+{
+  "projects": {
+    "project_github": {
+      "id": "49A6UvTE",
+      "description": "",
+      "tags": [],
+      "lastUpdated": 1794799043122
+    }
+  }
+}
